@@ -10,7 +10,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.12.4</version>
 				<configuration>
-					<include>Runner1.java</include>
+					<include>Test_Runner1.java</include>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -31,11 +31,6 @@
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>1.2.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.10</version>
 		</dependency>
 	</dependencies>
 </project>

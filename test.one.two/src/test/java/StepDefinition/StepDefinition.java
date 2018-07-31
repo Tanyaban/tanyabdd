@@ -17,7 +17,7 @@ public class StepDefinition {
 	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.gecko.driver","E:\\gecko\\geckodriver.exe");
 		  ffdriver1=new FirefoxDriver();
-			ffdriver1.get("http://ec2-18-191-84-26.us-east-2.compute.amazonaws.com:8090/TestWebapp");
+			ffdriver1.get("http://ec2-18-188-226-22.us-east-2.compute.amazonaws.com:8090/TestWebapp");
 			ffdriver1.manage().window().maximize();
 	}
 
