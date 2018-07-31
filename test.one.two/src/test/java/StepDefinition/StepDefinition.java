@@ -15,7 +15,7 @@ public class StepDefinition {
 	@Given("^Login application should be available$")
 	public void login_application_should_be_available() {
 	    // Write code here that turns the phrase above into concrete actions
-		System.setProperty("webdriver.gecko.driver","E:\\gecko\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 		  ffdriver1=new FirefoxDriver();
 			ffdriver1.get("http://ec2-18-222-213-91.us-east-2.compute.amazonaws.com:8090/TestWebapp");
 			ffdriver1.manage().window().maximize();
